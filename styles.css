@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&display=swap');
+
+* {
+    font-family: 'IM Fell DW Pica', serif;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row ;
+    
+    row-gap:30px
+}
+.flex-col {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.item {
+    flex: 1; /* default 0 */
+  }
+header {
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+.header-link-text {
+    color: #e5e7eb;
+    padding: 0px 10px;
+}
+#header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 0px 10px;
+}
+#hero, footer, header {
+    background-color: #4e3a2b;
+    width: 100vw;
+}
+#hero-text {
+    display: flex;
+    flex-direction: column ;
+    align-items: left;
+    margin: 0 50px;
+}
+#hero-main-text {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+    margin: 30px 0px;
+}
+#hero-secondary-text, .header-link-text {
+    font-size: 20px;
+    color: #e5e7eb;
+}
+.hero-image {
+    margin: 50px 50px 50px 25px;
+    max-width: 400px;
+    max-height: 400px;
+}
+button {
+    
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 30px 0px;
+    border: #f9faf8;
+    border-width: 1px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #f9faf8;
+    width: fit-content;
+    height: fit-content;
+}
+#information {
+}
+#information-header-text {    
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.image-figure {
+    max-height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #4e3a2b;
+}
+
+#quote-section {
+    background-color: #e5e7eb;
+    width: 100vw;
+    padding: 36px;
+}
+#quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+
+}
+.sign-up-button {
+    background-color: #4e3a2b;
+    color: #e5e7eb;
+    
+}
+#call-to-action-section {
+    background-color: #4e3a2b;
+    color: #e5e7eb;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+#call-to-action-text {
+    background-color: #4e3a2b;
+    color: #e5e7eb;
+    margin: 20px 50px;
+}
+footer {
+    color: #e5e7eb;
+    justify-content: center;
+}
